@@ -2,7 +2,7 @@
 # Remote Database Project using Google Cloud and Firebase
 
 ## Test project:
-###Firestore database for Responsive Login Form
+### Firestore database for Responsive Login Form
 
 https://firebase.google.com
 
