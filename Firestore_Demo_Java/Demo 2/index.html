@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Responsive Forms</title>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+    <form action="test-url" method="POST">
+        <fieldset>
+            <legend>Register</legend>
+            <div class="row-wrapper">
+                <label for="fname">First Name</label>
+                <input type="text" class="info" id="fname" name="firstname" placeholder="Your first name...">
+            </div>
+            <div class="row-wrapper">
+                <label for="lname">Last Name</label>
+                <input type="text" class="info" id="lname" name="lastname" placeholder="Your last name...">
+            </div>
+            <div class="row-wrapper">
+                <label for="email">Email</label>
+                <input type="email" class="info" id="email" name="email" placeholder="Your email...">
+            </div>
+            <div class="row-wrapper">
+                <label for="contry-input">Country</label>
+                <input list="country" class="info" id="country-input" placeholder="Your country...">
+            <datalist id="country">
+                <option value="Bulgaria">Bulgaria</option>
+                <option value="Canada">Canada</option>
+                <option value="Brazil">Brazil</option>
+            </datalist>
+            </div>
+            
+            <button type="submit" class="btn-submit" id="submit">Submit</button>
+        </fieldset>
+    </form>
+
+    <div class="row-wrapper" id="records">
+        <button id="getRecords">Get Saved Users</button>
+        <ul id="records-list"></ul>
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/10.12.1/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.12.1/firebase-firestore-compat.js"></script>
+    <script src="./app.js"></script>
+</body>
+</html>
