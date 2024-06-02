@@ -9,8 +9,8 @@ This repository contains Firestore database for Responsive Login Form
   
 ### Content:
 
-- using JavaScript
-- using C#
+- Firestore Demo project using JavaScript
+- Rirestore Demo project using C#
 <p></p>
 
 This is a test project for Front-End Tehnologies May 2024 Course @ SoftUni
