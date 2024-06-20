@@ -1,6 +1,6 @@
 
 # Remote Databases Project with Firebase
-
+![image](https://img.shields.io/badge/firebase-ffca28?style=for-the-badge&logo=firebase&logoColor=black)
 ### This is a test project for Front-End Tehnologies May 2024 Course @ SoftUni
 ---
 ## About
