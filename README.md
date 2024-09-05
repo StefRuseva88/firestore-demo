@@ -1,6 +1,8 @@
 # Remote Databases Project with Firebase
-
-![image](https://img.shields.io/badge/firebase-ffca28?style=for-the-badge&logo=firebase&logoColor=black)
+[![JavaScript](https://img.shields.io/badge/Made%20with-JavaScript-F7DF1E.svg)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![C#](https://img.shields.io/badge/Made%20with-C%23-239120.svg)](https://learn.microsoft.com/en-us/dotnet/csharp/)
+[![.NET](https://img.shields.io/badge/.NET-5C2D91.svg)](https://dotnet.microsoft.com/)
+[![Firebase](https://img.shields.io/badge/Powered%20by-Firebase-FFCA28.svg)](https://firebase.google.com/)
 
 ### This is a test project for **Front-End Technologies** May 2024 Course @ SoftUni
 
