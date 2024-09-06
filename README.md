@@ -40,15 +40,15 @@ Firestore security rules determine who can read or write to your database. Initi
 - Navigate to the Firestore tab in your Firebase project.
 - Under the Rules section, modify the security rules to allow read and write access to all users:
 
-    ```sh
-    service cloud.firestore {
-    match /databases/{database}/documents {
-      match /{document=**} {
-        allow read, write: if true;
+       ```
+       service cloud.firestore {
+       match /databases/{database}/documents {
+         match /{document=**} {
+          allow read, write: if true;
+         }
+        }
       }
-    }
-  }
-    ```
+        ```
 
 ## Content:
 
