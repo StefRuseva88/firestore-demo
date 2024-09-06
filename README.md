@@ -50,10 +50,14 @@ service cloud.firestore {
 }
 ```
 - Note: This rule allows unrestricted access to the database. Make sure to update the rules in production environments for security purposes.
-
+  
+3. Set up Firebase Configuration in Your Project:
+- Go to the Firebase Console and open your project settings.
+- Under the "General" tab, you’ll find the Firebase SDK configuration snippets.
+- Copy the JavaScript Firebase config object or the `google-services.json` file (for .NET) to your project and initialize Firebase.
+  
 ## Content:
 This project contains two Firebase Firestore integration demos:
-
 - JavaScript Demo: Demonstrates how to use Firebase Firestore in a web-based JavaScript application to perform real-time CRUD operations.
 - C# Demo: Showcases how to integrate Firebase Firestore in a C# console application for similar database interactions.
   
