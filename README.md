@@ -50,10 +50,12 @@ service cloud.firestore {
 }
 ```
 - Note: This rule allows unrestricted access to the database. Make sure to update the rules in production environments for security purposes.
-## Content:
 
-- Firestore Demo project using JavaScript
-- Firestore Demo project using C#
+## Content:
+This project contains two Firebase Firestore integration demos:
+
+- JavaScript Demo: Demonstrates how to use Firebase Firestore in a web-based JavaScript application to perform real-time CRUD operations.
+- C# Demo: Showcases how to integrate Firebase Firestore in a C# console application for similar database interactions.
   
 ## Contributing
 Contributions are welcome! If you have any improvements or bug fixes, feel free to open a pull request.
